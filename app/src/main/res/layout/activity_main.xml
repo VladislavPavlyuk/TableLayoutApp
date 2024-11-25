@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:stretchColumns="*">
+
+<TableRow>
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="65dp"
+        android:layout_weight="1" />
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="65dp"
+        android:layout_weight="1"
+        android:text="@string/b1" />
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="65dp"
+        android:layout_weight="1" />
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="65dp"
+        android:layout_weight="1" />
+</TableRow>
+
+<TableRow>
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="65dp"
+        android:layout_weight="1" />
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="65dp"
+        android:layout_weight="1"
+        android:text="@string/b2" />
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="65dp"
+        android:layout_weight="1"
+        android:text="@string/b3" />
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="65dp"
+        android:layout_weight="1" />
+</TableRow>
+
+<TableRow>
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="65dp"
+        android:layout_weight="3"
+        android:layout_span="3"
+        android:text="@string/b4" />
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="65dp"
+        android:layout_weight="1"
+        android:text="@string/b5" />
+</TableRow>
+
+</TableLayout>
+
+
+
+
